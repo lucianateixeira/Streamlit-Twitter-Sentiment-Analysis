@@ -5,6 +5,8 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import plotly.express as px
+import pmdarima
+
 
 st.set_page_config(
     page_title='Twitter Sentiment Forecasting',
